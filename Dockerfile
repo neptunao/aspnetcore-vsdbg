@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.1
+FROM microsoft/aspnetcore:latest
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
